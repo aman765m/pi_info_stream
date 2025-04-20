@@ -10,7 +10,6 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED) # Required for parsing msg folder
-find_package(pi_info_stream REQUIRED)
 
 add_executable(pi_info src/pi_info.cpp)
 
