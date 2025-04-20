@@ -1,0 +1,9 @@
+# Ignore build files and ROS 2 generated folders
+build/
+install/
+log/
+*.pyc
+__pycache__/
+.env
+*.swp
+*.log
